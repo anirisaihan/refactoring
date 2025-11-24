@@ -1,3 +1,4 @@
+a732c0e Task 2.4 done
 1a10dbd Task 2.3 done
 9f8237f Task 2.2 done
 b7e2925 Task 2.1 done
