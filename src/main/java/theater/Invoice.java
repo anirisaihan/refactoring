@@ -1,25 +1,23 @@
 package theater;
 
-import java.util.List;
-
 /**
- * Class representing an invoice for a customer.
+ * Class representing an invoice containing a customer and their performances.
  */
 public class Invoice {
 
     private final String customer;
-    private final List<Performance> performances;
+    private final java.util.List<Performance> performances;
 
-    public Invoice(String customer, List<Performance> performances) {
+    public Invoice(String customer, java.util.List<Performance> performances) {
         this.customer = customer;
         this.performances = performances;
     }
 
-    public final String getCustomer() {
+    public String getCustomer() {
         return customer;
     }
 
-    public final List<Performance> getPerformances() {
+    public java.util.List<Performance> getPerformances() {
         return performances;
     }
 }
